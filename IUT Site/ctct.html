@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" media="screen" type="text/css" href="ctct.css"/>
+    <title>Louis Chaillou</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+        <h1>Louis Chaillou </h1>
+        </div>
+    </header>
+
+  	
+
+
+      <nav id='navbar'>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="ip.html">Centres d'intérêt</a></li>
+            <li><a href="doc.html">Documents</a></li>
+            <li><a class="en-cours" href="ctct.html">Contact</a></li>
+            
+        </ul>
+    </nav>
+
+
+
+ <div class="Mail">
+ 	<p> Me contacter :</p>
+    <form action="http://www.iut-fbleau.fr/sitebp/post.php" method="post">
+        <label id="Nom"></label>
+        <input type="text" name="Nom" placeholder=" Votre nom (*)" required><br><br>
+
+        <label id="Prénom"></label>
+        <input type="text" name="Prénom" placeholder=" Votre prénom (*)" required><br><br>
+      
+        <label id="email"></label>
+        <input type="email" name="Email" placeholder=" Votre e-mail (*)" required><br><br>
+
+        <label id="Sujet"></label>
+        <input type="text" name="Sujet" placeholder=" Sujet (*) " required><br><br>
+
+        <label id="message"></label>
+        <TEXTAREA name="Message" placeholder=" Message (*)" rows=4 cols=40></TEXTAREA><br><br>
+
+        <input type="submit" name="soumission" value="Envoyer" />
+        <input type="reset">
+
+    </form>
+   
+</div>
+
+<div class="adresse">
+	<br><br>
+	<p>Louis Chaillou, 3 rue Ferrare, Fontainebleau, 77300.</p>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2648.737624144086!2d2.6966560091525595!3d48.40398162168644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5f488ed6fdbbf%3A0x6f0eef2ae92c8c6c!2sR%C3%A9sidence+Universitaire+raymond+Fischesser!5e0!3m2!1sfr!2sfr!4v1545910964829" width="400" height="150" style="border:0" allowfullscreen></iframe>
+</div>
+
+<div class="ct">
+	<br><br><br><br><br>
+	<a href="mailto:louisapb2018@gmail.com"><img  src="https://pngimage.net/wp-content/uploads/2018/06/logo-mail-png-transparent-7.png" width="35" height="25" alt="mail" ></a>   Louisapb2018@gmail.com <br><br><br>
+	<img  src="https://bonne-terre.fr/wp-content/uploads/2016/09/ic%C3%B4ne-t%C3%A9l%C3%A9phone-1560x1560.png" alt="tel" width="35" height="35" >
+	06.40.12.89.73
+	
+</div>
+
+
+
+<div class="btn">       
+    <a id="top"></a>
+    <a href="#top" title="Retour en haut"></a> 
+    <a href="#" title="Retour en haut"><img alt="retour en haut" src="http://www.wifeo.com/community/images/ww_img_top.png
+"></a>
+</div>
+
+
+<script>
+
+    window.onscroll = function() {myFunction()};
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    } 
+    
+</script>
+
+<div class="app">
+    <a href="https://www.linkedin.com/in/louis-c-760a94b6/"><img src="https://www.lafabriquedunet.fr/wp-content/plugins/simple-share-buttons-adder/buttons/simple/linkedin.png" alt="linkedin" style="border:none" ></a><br><br><br>
+    <a href="mailto:louisapb2018@gmail.com"><img  src="https://upload.wikimedia.org/wikipedia/fr/a/a7/Mail_%28Apple%29_logo.png" alt="mail" style="border:none" ></a>
+</div>
+
+    <footer>
+        <div class="footer">
+
+            <p>© Louis Chaillou / Version : 1.0 / janvier 2018</p>
+            <p><img src="http://dev.meilleures-licences.com/logo_ecole/logoiut11rvb-01-1478184434.jpg" alt="logo_ecole"></p>
+
+        
+        </div>
+    </footer>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" media="screen" type="text/css" href="ip.css"/>
+    <title>Louis Chaillou</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+        <h1>Louis Chaillou </h1>
+        </div>
+    </header>
+
+
+
+   
+      <nav id='navbar'>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a class="en-cours" href="ip.html">Centres d'intérêt</a></li>
+            <li><a href="doc.html">Documents</a></li>
+            <li><a href="ctct.html">Contact</a></li>
+            
+        </ul>
+    </nav>
+
+
+
+    <div class="volley">
+        <h1> Le volley </h1>
+        <p> Loisir et compétition, c'est une passion depuis 6 ans </p>
+    </div>
+    <div class="photovolley">
+        <img src="Images/volley.JPG" alt="cvbe" style="border:none">
+    </div>
+    <div class="voyage">
+        <h1> Les voyages </h1>
+        <p> US, Mexique, République dominicaine, Maroc, Espagne ...</p> 
+    </div>
+    
+    <div class="photovoyage">
+
+
+<script>
+            var i = 0;
+            var images = [];
+            var time = 4000;
+            images[0] = 'Images/2017 MEXIQUE 531.JPG';
+            images[1] = 'Images/20170405_182503.jpg';
+            images[2] = 'Images/DSC_0371.JPG';
+            images[3] = 'Images/DSC_0008.JPG';
+            images[4] = 'Images/18B.jpg';
+            images[5] = 'Images/2013 LONDON 022.jpg';
+
+            function changeImg(){
+                document.slide.src = images[i];
+
+                if( i < images.length - 1){
+                    i++;
+                }else {
+                    i = 0;
+                }
+
+            setTimeout("changeImg()", time);
+            }
+
+window.onload = changeImg;
+
+
+</script>
+
+
+<div class="changeImg">
+    <img src="img.png" name="slide" width="485" height="300" alt="defil">
+</div>
+
+    </div>
+
+    <div class="surf">
+        <h1> Le surf, 64</h1>
+        <p> Amoureux du pays basque depuis mon plus jeune âge.</p>
+    </div>
+    <div class="photosurf">
+         <img src="Images/surf.jpg" alt="cvbe" style="border:none">
+    </div>
+
+
+
+
+
+
+    <div class="btn">       
+        <a id="top"></a>
+        <a href="#top" title="Retour en haut"></a> 
+        <a href="#" title="Retour en haut"><img alt="retour en haut" src="http://www.wifeo.com/community/images/ww_img_top.png
+        "></a>
+    </div>
+
+
+<script>
+
+    window.onscroll = function() {myFunction()};
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    } 
+
+</script>
+
+<div class="app">
+    <a href="https://www.linkedin.com/in/louis-c-760a94b6/"><img src="https://www.lafabriquedunet.fr/wp-content/plugins/simple-share-buttons-adder/buttons/simple/linkedin.png" alt="linkedin" style="border:none" ></a><br><br><br>
+    <a href="mailto:louisapb2018@gmail.com"><img  src="https://upload.wikimedia.org/wikipedia/fr/a/a7/Mail_%28Apple%29_logo.png" alt="mail" style="border:none" ></a>
+</div>
+
+  <footer>
+       <div class="footer">
+
+            <p>© Louis Chaillou / Version : 1.0 / janvier 2018</p>
+            <p><img src="http://dev.meilleures-licences.com/logo_ecole/logoiut11rvb-01-1478184434.jpg" alt="logo_ecole"></p>
+
+        
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
+
+
+
+

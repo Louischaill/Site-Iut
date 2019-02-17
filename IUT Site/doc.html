@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" media="screen" type="text/css" href="doc.css"/>
+    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+    <title>Louis Chaillou</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+        <h1>Louis Chaillou </h1>
+        </div>
+    </header>
+
+
+
+    <nav id='navbar'>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="ip.html">Centres d'intérêt</a></li>
+            <li><a class="en-cours" href="doc.html">Documents</a></li>
+            <li><a href="ctct.html">Contact</a></li>
+            
+        </ul>
+    </nav>
+
+
+
+    <div class="header1">
+        <h1 > Louis CHAILLOU</h1>
+        <p > 3 rue Ferrare · 91150 · Morigny · 06 40 12 89 73 </p>
+        <p class="sousou"> Louis.chaillou@etu.u-pec.fr </p>
+    </div>
+
+
+
+<div class="desc">
+    <br><p >18 ans, célibataire </p>
+    <p class="descp">Permis B, véhilulé </p>
+</div>
+
+
+
+
+<div class="formation">
+    <h3><span>Formation</span></h3>
+    <div>
+        <hr class="verti">
+    </div>
+    <div class="formatxt"> 
+        <p> <strong>2018/2019</strong></p>
+        <p>Premiere année de <strong>DUT INFORMATIQUE</strong></p>
+        <p>Université de Paris-Est Créteil, IUT de Fontainebleau (77)</p>
+      <br>
+        <p><strong>Juin 2018</strong></p>
+        <p><strong>BACCALAUREAT S</strong>-SVT option SVT</p>
+        <p>Lycée Geoffroy Saint Hilaire, Étampes (91)</p><br><br><br>
+    </div>
+</div>
+
+
+
+
+<div class="experience">
+    <h3><span>Expérience</span></h3>
+    <div>
+        <hr class="verti1">
+    </div>
+    <div class="exptxt">
+        <p> Décembre 2014 (1 semaine)</p>
+        <p> <strong>Entreprise STARK</strong>, Sainte Geneviève des Bois </p>
+        <p> Vente, Communication et gestion </p>
+        <p> Stage de 3ème <p> <br><br>
+    </div>
+
+</div>
+
+
+
+
+<div class="competences">
+    <h3><span>Compétences</span></h3>
+
+    <div class="competxt">
+        <div class="competxt1">
+            <ul>
+                <li> Compétences bureautiques : <br> Word, Excel, Powerpoint</li>
+                <li> Maitrise de photoshop et GIT </li>
+                <li> Anglais : Bon niveau</li>
+                <li> Allemand : Bon niveau</li>
+                <li> Utilisation des OS : <br> -Windows<br> -MacOS <br> - ArchLinux, Ubuntu</li>
+                    
+                    
+                   
+            </ul>
+        </div>
+
+
+        <div class="competxt2">
+            <ul>
+                <li>Maitrise des langages de programmation :  </li>
+                <p> -Langage C : niveau moyen </p>
+                <p> -SQL : niveau débutant</p>
+                <p> -html && CSS : niveau moyen<p>
+                <li> Réalisations : </li>
+                <p> -En C : Un memory </p>
+                <p> -En WEB : <a href="dwarves.iut-fbleau.fr/~chailloul/">dwarves.iut-fbleau.fr/~chailloul/</a></p>
+            </ul>
+        </div>
+
+    </div>
+</div> <!--<br><br><br>-->
+
+
+
+
+
+<div class="cdi">
+    <h3><span>Centres d'intérêt</span></h3>
+    
+    <div class="cditxt">
+        <ul>
+            <li> Pratique du volley depuis 6 ans , niveau régional Ile de France, champion de l'Essonne </li>
+            <p> Esprit d'équipe et de compétition </p>
+            <li> Pratique du surf depuis 3 ans </li>
+            <p> Concentration et patience</p>
+            <li> Pratique de la guitare depuis 7 ans </li>
+            <p> Créativité et rigueur </p>
+            <li> Voyages: Allemagne, Espagne, Grèce, États-Unis, Mexique, République Dominicaine</li>
+            <p> Culture et découvertes</p>
+        </ul>
+    </div>
+
+</div>
+
+
+
+<div class="taille">
+    <a href="javascript:window.print()"><img src="https://image.flaticon.com/icons/png/512/62/62256.png" alt="taille"></a>
+    <a href="https://www.linkedin.com/in/louis-c-760a94b6/"><img src="https://www.lafabriquedunet.fr/wp-content/plugins/simple-share-buttons-adder/buttons/simple/linkedin.png" alt="linkedin" style="border:none" ></a>
+    <a href="mailto:louisapb2018@gmail.com"><img  src="https://upload.wikimedia.org/wikipedia/fr/a/a7/Mail_%28Apple%29_logo.png" alt="mail" style="border:none" ></a>
+</div>
+
+
+
+
+<script>
+function imprimer_page(){
+  window.print();
+}
+</script>
+
+
+    <div class="btn">       
+        <a id="top"></a>
+        <a href="#top" title="Retour en haut"></a> 
+        <a href="#" title="Retour en haut"><img alt="retour en haut" src="http://www.wifeo.com/community/images/ww_img_top.png
+        "></a>
+    </div>
+
+
+
+
+
+
+<script>
+
+    window.onscroll = function() {myFunction()};
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    } 
+
+</script>
+
+
+  <footer>
+       <div class="footer">
+
+            <p>© Louis Chaillou / Version : 1.0 / janvier 2018</p>
+            <p><img src="http://dev.meilleures-licences.com/logo_ecole/logoiut11rvb-01-1478184434.jpg" alt="logo_ecole"></p>
+
+        
+        </div>
+    </footer>
+
+</body>
+
+</html>

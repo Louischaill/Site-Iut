@@ -1,0 +1,330 @@
+.taille{
+  display : none;
+}
+header { 
+display :none; 
+}
+
+
+
+
+
+#navbar li  {
+	display: none;
+}
+#navbar ul {
+display: none;
+}
+
+#navbar li a {
+display: none;
+}
+
+#navbar li a:hover {
+  display: none;
+}
+.en-cours{
+display: none;
+}
+#navbar a img{
+display: none;
+	
+}
+
+
+
+
+.sticky {
+ display: none;
+}
+footer {
+display: none;
+
+
+}
+
+
+.footer img{
+	display: none;
+}
+footer p{
+	display: none;
+}
+.footer p:first-child{
+	display: none;
+}
+
+.Mail {
+	display: none;
+}
+.Mail p {
+	display: none;
+}
+
+.btn {
+ display: none;
+}
+
+
+
+.body1{
+display: 
+}
+
+.header1 h1 {
+
+	text-align:center;
+	color: black;
+	font-size: 36px;
+	font-family: Arial,Tahoma;
+	line-height:115%;
+	color :#00b300;
+
+}
+
+.header1 p {
+	text-align:center;
+	color: grey;
+	font-size: 20px;
+	font-family: Arial,Tahoma;
+	line-height: 70%;
+}
+.sousou {
+	text-align:center;
+	text-decoration: underline;
+	color :#00b300;
+}
+.header1 {
+	height: 125px;
+	margin-top: 4%;
+	background-color:  #b3ffb3 ;
+	margin-left: 15%;
+	margin-right: 15%
+}
+.desc p {
+	color: grey;
+	font-size: 16px;
+	font-family: Arial,Tahoma;
+	line-height:  55%;
+	text-align: center;
+	margin-top: -1%;
+}
+
+
+
+
+
+.formation h3 {
+ 	margin-left: 15%;
+  	position: relative;
+ 	font-family: Arial,Tahoma;
+ 	font-size: 22px;
+}
+
+.formation h3:after {
+  	content:'';
+  	height:100%;
+  	box-sizing:border-box;
+ 	position:absolute;
+  	width:113%;
+}
+
+.formation h3:after {
+  	border-bottom:solid;
+  	color :grey;
+}
+
+.formation h3 span {
+  	display:inline-block;
+  	margin:0 -4.35em;
+}
+
+.formation h3:nth-child(odd) {
+  	color:#00b300;
+}
+
+.formation h3:last-of-type{
+  	font-variant:small-caps;
+  	text-shadow:0 0 black;
+}
+.verti {
+	margin-left: 4%;
+	margin-top: -0.5%;
+	height: 138px;
+	width: 0%;
+	float: left;
+}
+.formatxt {
+	font-family: Arial,Tahoma;
+	margin-left: 10%;
+	line-height: 5px;
+	margin-top: 0;
+
+}
+
+
+
+
+
+.experience h3 {
+  	margin-left: 15%;
+  	position: relative;
+ 	font-family: Arial,Tahoma;
+ 	font-size: 22px;
+ 	margin-top: -2%;
+}
+
+.experience h3:after {
+  	content:'';
+  	height:100%;
+	box-sizing:border-box;
+  	position:absolute;
+  	width:113%;
+}
+
+.experience h3:after {
+  border-bottom:solid;
+  color :grey;
+}
+
+.experience h3 span {
+  display:inline-block;
+  margin:0 -4.60em;
+}
+
+.experience h3:nth-child(odd) {
+  color:#00b300;
+}
+
+.experience h3:last-of-type{
+  font-variant:small-caps;
+  text-shadow:0 0 black;
+}
+.verti1 {
+	margin-left: 4%;
+	margin-top: -0.5%;
+	height: 75px;
+	width: 0%;
+	float: left;
+}
+.exptxt p{
+	font-family: Arial,Tahoma ;
+	line-height: 5px;
+}
+.exptxt {
+	margin-left: 10%;
+}
+
+
+
+
+.competences h3 {
+ 	margin-left: 18%;
+  	position: relative;
+ 	font-family: Arial,Tahoma;
+ 	font-size: 22px;
+ 	margin-top: -2%;
+}
+
+.competences h3:after {
+  	content:'';
+  	height:100%;
+  	box-sizing:border-box;
+ 	position:absolute;
+  	width:116%;
+}
+
+.competences h3:after {
+  	border-bottom:solid;
+  	color :grey;
+}
+
+.competences h3 span {
+  	display:inline-block;
+  	margin:0 -5.5em;
+}
+
+.competences h3:nth-child(odd) {
+  	color:#00b300;
+}
+
+.competences h3:last-of-type{
+  	font-variant:small-caps;
+  	text-shadow:0 0 black;
+}
+
+.competxt1 ul {
+	box-sizing: 50%;
+	/*margin-left: 10%;*/
+	line-height: 20px;
+	float: left;
+	margin-top: -1%;
+	font-family: Arial,Tahoma;
+}
+
+.competxt2 ul {
+	box-sizing: 50%;
+	margin-right: 9s%;
+	line-height: 8px;
+	float: right;
+	margin-top: 0%;
+	font-family: Arial,Tahoma;
+}
+
+.competxt1 p {
+	margin-left: 5%;
+	margin-top: 0%;
+	line-height: 20%;
+}
+.competxt a {
+	color :#00b300;
+}
+
+
+
+
+
+
+.cdi {
+	margin-top: 31%;
+}
+.cdi h3 {
+ 	margin-left: 24%;
+  	position: relative;
+ 	font-family: Arial,Tahoma;
+ 	font-size: 22px;
+}
+
+.cdi h3:after {
+  	content:'';
+  	height:100%;
+  	box-sizing:border-box;
+ 	position:absolute;
+  	width:125%;
+}
+
+.cdi h3:after {
+  	border-bottom:solid;
+  	color :grey;
+}
+
+.cdi h3 span {
+  	display:inline-block;
+  	margin:0 -7.4em;
+}
+
+.cdi h3:nth-child(odd) {
+  	color:#00b300;
+}
+
+.cdi h3:last-of-type{
+  	font-variant:small-caps;
+  	text-shadow:0 0 black;
+}
+
+.cditxt ul {
+	font-family: Arial,Tahoma;
+	margin-left: 0%;
+	line-height: 20%;
+
+}

@@ -1,0 +1,155 @@
+
+html {
+ 	background-color: #d9ffb3;
+ 	height: 120%;
+}
+
+body{
+	margin-top: 2%;
+ 	margin-right:8%;
+ 	margin-bottom:1%;
+ 	margin-left: 8%;
+ 	background-color: #f2f2f2;
+ 	border-radius: 2%;
+ 	min-height: 130%; 
+ 	position: relative;	
+}
+
+.header h1{
+	color:#53c653;
+	margin-left: 2%;
+	padding-top: 2%;
+	padding-bottom: 0.75%;
+	font-size: 28px;
+	font-family: Arial,Tahoma;
+}
+
+#navbar li  {
+	display: inline;
+	float: left;
+}
+#navbar ul {
+	margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background:#555;
+    border-radius: 10px;
+    font-family: Arial,Tahoma;
+}
+
+#navbar li a {
+	display: block;
+    color: white;
+    text-align: center;
+   	padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    background: #e35a00;
+}
+.en-cours{
+    background: #e35a00;
+}
+.app a img {
+	margin-left: 31%;
+	margin-top: -39%;
+	position: fixed;
+	height: 7%;
+	width: 4%;
+
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 84%;
+}
+
+
+.qsj {
+	padding-top: 1.2%;
+	margin-left:2.2%;
+	margin-right: 28%;
+}
+
+.qsj h2 {
+	color: black;
+	font-size: 18px;
+	font-family: Arial,Tahoma;
+	border-bottom: 1px dashed #000000
+}
+.qsj h3 {
+	color: black;
+	font-size: 18px;
+	font-family: Arial,Tahoma;
+	border-bottom: 1px dashed #000000
+}
+.qsj h4 {
+	color: black;
+	font-size: 18px;
+	font-family: Arial,Tahoma;
+	border-bottom: 1px dashed #000000
+}
+
+div.text{
+	box-sizing:border-box;
+  	width:90%;
+  	float:left;
+}
+.text a {
+	font-family: Arial,Tahoma;
+	color: black;
+}
+.image img {
+
+	margin-left: 120%;
+	margin-top:70%;
+	width:  350%;
+	height:  290%;
+	/*transform: rotate(90deg);*/
+ 	/*-ms-transform: rotate(90deg); */
+	/*-webkit-transform: rotate(90deg);*/
+	position: relative;
+
+}
+.image{
+	box-sizing:border-box;
+  	width:10%;
+  	float:right;
+}
+
+
+footer {
+	position:absolute;
+  	width:100%;
+  	height: 0%;
+	bottom: 10%;
+	/*width: 80%; 
+   	height: 0%; */ /* Hauteur du pied de page */ 
+
+
+}
+.footer {}
+
+.footer img{
+	width: 16%;
+	height: 8%;
+	margin-left: 51%;
+}
+footer p{
+	display: inline;
+}
+.footer p:first-child{
+	padding-left: 10px;
+	font-family: Arial,Tahoma;
+	color: black;
+}
+
+
+.btn {
+ 	position:fixed;
+ 	padding-left: /*1115px*/ 86%;
+ 	bottom: 0;
+}
